@@ -53,4 +53,54 @@ class ShuzuCommonApplication
         return $tokenresp;
 
     }
+
+    /**
+     * @return mixed
+     */
+    public function getAppid()
+    {
+        return $this->appid;
+    }
+
+    /**
+     * @param mixed $appid
+     */
+    public function setAppid($appid)
+    {
+        $this->appid = $appid;
+    }
+
+    /**
+     * @return mixed
+     */
+    public function getAppSecret()
+    {
+        return $this->appSecret;
+    }
+
+    /**
+     * @param mixed $appSecret
+     */
+    public function setAppSecret($appSecret)
+    {
+        $this->appSecret = $appSecret;
+    }
+
+    /**
+     * @return mixed
+     */
+    public function getUrl()
+    {
+        return $this->url;
+    }
+
+    /**
+     * @param mixed $url
+     */
+    public function setUrl($url)
+    {
+        $this->url = $url;
+    }
+
+    
 }
