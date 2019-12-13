@@ -1,0 +1,23 @@
+{
+    "name": "shuzu/open-common",
+    "description": "open-common",
+    "type": "library",
+    "require-dev": {
+        "phpunit/phpunit": "^5.7"
+    },
+    "authors": [
+        {
+            "name": "zengshaoxiong",
+            "email": "zengshaoxiong@shuzutech.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Shuzu\\Common\\": "src/"
+        }
+    },
+    "require": {
+        "guzzlehttp/guzzle": "^6.5",
+        "ext-json": "*"
+    }
+}
