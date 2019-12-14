@@ -131,7 +131,7 @@ class ShuzuCommonApplication
     public function doPostJson($fullUrl, $request){
         $body = json_encode($request);
         $response = $this->doPost($fullUrl, $body,'application/json');
-        $json_resp = json_decode($response->getBody(),true);
+        $json_resp = json_decode($response,true);
         if($json_resp == null){
             throw new ShuzuApplicationException("返回数据异常");
         }
