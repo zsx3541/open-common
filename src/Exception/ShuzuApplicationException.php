@@ -6,7 +6,7 @@
  * Time: 18:23
  */
 
-namespace Shuzu\Common\exception;
+namespace Shuzu\Common\Exception;
 
 
 use Throwable;
